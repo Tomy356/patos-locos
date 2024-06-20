@@ -1,0 +1,40 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #00796b;
+        }
+        p {
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border: 2px solid #00796b;
+            border-radius: 10px;
+        }
+        @media (max-width: 600px) {
+            p {
+                padding: 0 10px;
+            }
+            .gallery img {
+                max-width: 100%;
+            }
+        }
